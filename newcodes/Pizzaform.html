@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <title>Tony's Pizzeria</title>
+</head>
+<body>
+    <form actions="deliverPizza.php" method="post">
+<fieldset>
+    <legend>Customer Information</legend>
+        <label for="firstName">First Name:</label> 
+       <input type="text" name="firstName" id="firstName" /><br/>
+       <label for="lastName">Last Name:</label> 
+       <input type="text" name="lastName" id="firstName" /><br/>
+       <label for="address">Street Address:</label> 
+       <input type="text" name="address" id="address" /><br/>
+       <label for="city">City:</label> 
+       <input type="text" name="city" id="city" /><br/>
+       <label for="zip">Zip Code:</label> 
+       <input type="text" name="zip" id="zip" /><br/>
+       <label for="phone">Phone:</label> 
+       <input type="text" name="phone" id="phone" /><br/>
+</fieldset>
+<br/>
+
+<fieldset>
+    <legend>Payment Information</legend>
+       <label for="crust">Crust:</label>
+       <select id="crust" name="crust">
+           <option value="handTossed">Hand-Tossed</option>
+            <option value="deepDish">Deep Dish</option>
+            <option value="thinCrust">Thin Crust</option>
+       </select>
+
+
+
+
+       <p>Please select your toppings:</p>
+    
+       <input type="checkbox" name="toppings" value="pepperoni" id="pepperoni" />
+       <label for="pepperoni" >Pepperoni </label><br/>
+       <input type="checkbox" name="toppings" value="sausage" id="sausage"/>
+       <label for="sausage">Sausage</label><br/>
+       <input type="checkbox" name="toppings" value="spicySausage" id="spicySausage"/>
+       <label for="spicySausage">Spicy Sausage</label><br/>
+       <input type="checkbox" name="toppings" value="gPeppers" id="gPeppers" />
+       <label for="gPeppers">Green Peppers</label><br/>
+       <input type="checkbox" name="toppings" value="jalapeno" id="jalapeno" />
+       <label for="jalapeno">Jalapeno Peppers</label><br/>
+       <input type="checkbox" name="toppings" value="onion" id="onion" />
+       <label for="onion">Onion</label><br/>
+       <input type="checkbox" name="toppings" value="mushroom" id="mushroom" />
+       <label for="mushroom">Mushrooms</label><br/>
+       <input type="checkbox" name="toppings" value="olives" id="olives" />
+       <label for="olives">Olives</label><br/>
+       <input type="checkbox" name="toppings" value="xtraCheese" id="xtraCheese" />
+       <label for="xtraCheese">Extra Cheese</label><br/>
+
+
+       <label for="instructions">Special Instructions</label>
+       <textarea id="instructions" name="instructions" placeholder="How would you like your pizza cut?"></textarea>
+    </fieldset>
+    <br/>
+<fieldset>
+        <legend>Payment Information</legend>
+       <p>How would you like to pay for your pizza?</p>
+       <input type="radio" name="payment" value="cash" id="cash"/>
+       <label for="cash">Cash</label>
+       <input type="radio" name="payment" value="check" id="check"/>
+       <label for="check">Check</label>
+       <input type="radio" name="payment" id="creditCard" value="creditCard"/>
+       <label type="creditCard">Credit Card</label> 
+       <input type="password" name="CCnumber"/>
+
+       <p>Would you like the driver to call upon leaving the store?</p>
+       <input type="radio" name="call" value="yes" id="yesCall" />
+       <label for="yesCall">Yes</label>
+       <input type="radio" name="call" value="no" id="noCall" checked/>
+       <label for="noCall">No</label>
+</fieldset>
+
+
+       <input type="submit"value="Order Pizza" id="submit"/>     
+
+        </form> 
+    </body>
+</html>

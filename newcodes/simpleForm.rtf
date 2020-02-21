@@ -1,0 +1,206 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red2\green17\blue29;\red92\green174\blue248;
+\red152\green210\blue245;\red245\green233\blue166;\red95\green255\blue110;\red176\green239\blue179;\red148\green194\blue234;
+\red22\green177\blue247;\red135\green135\blue135;\red112\green150\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c392\c8627\c15294;\cssrgb\c42745\c74118\c98039;
+\cssrgb\c65490\c85882\c96863;\cssrgb\c96863\c92549\c70980;\cssrgb\c41961\c100000\c50588;\cssrgb\c73725\c94118\c75294;\cssrgb\c64314\c80784\c93333;
+\cssrgb\c0\c74902\c97647;\cssrgb\c60000\c60000\c60000;\cssrgb\c50980\c66667\c100000;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!\cf4 \strokec4 DOCTYPE\cf5 \strokec5  
+\f1\i \cf6 \strokec6 HTML
+\f0\i0 \cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 html\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 head\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 meta\cf5 \strokec5  
+\f1\i \cf6 \strokec6 charset
+\f0\i0 \cf5 \strokec5 =\cf7 \strokec7 "\cf8 \strokec8 UTF-8\cf7 \strokec7 "\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 title\cf2 \strokec2 >\cf5 \strokec5 contact\cf2 \strokec2 </\cf4 \strokec4 title\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\cf2 \cb3 \strokec2 </\cf4 \strokec4 head\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 body\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3 <?php\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i \cf9 \cb3 \strokec9 $firstName
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $_POST
+\f0\i0 \cf5 \strokec5 [\cf7 \strokec7 "\cf8 \strokec8 firstName\cf7 \strokec7 "\cf5 \strokec5 ];\cb1 \
+
+\f1\i \cf9 \cb3 \strokec9 $lastName
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $_POST
+\f0\i0 \cf5 \strokec5 [\cf7 \strokec7 "\cf8 \strokec8 lastName\cf7 \strokec7 "\cf5 \strokec5 ];\cb1 \
+
+\f1\i \cf9 \cb3 \strokec9 $email
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $_POST
+\f0\i0 \cf5 \strokec5 [\cf7 \strokec7 "\cf8 \strokec8 email\cf7 \strokec7 "\cf5 \strokec5 ];\cb1 \
+
+\f1\i \cf9 \cb3 \strokec9 $phone
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $_POST
+\f0\i0 \cf5 \strokec5 [\cf7 \strokec7 "\cf8 \strokec8 phone\cf7 \strokec7 "\cf5 \strokec5 ];\cb1 \
+
+\f1\i \cf9 \cb3 \strokec9 $comment
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $_POST
+\f0\i0 \cf5 \strokec5 [\cf7 \strokec7 "\cf8 \strokec8 comments\cf7 \strokec7 "\cf5 \strokec5 ];\cb1 \
+
+\f1\i \cf9 \cb3 \strokec9 $subject
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 CME219 Contact Form\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i \cf11 \cb3 \strokec11 //Enter your email address
+\f0\i0 \cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i \cf9 \cb3 \strokec9 $to
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 kmdenni1@butler.edu\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i \cf11 \cb3 \strokec11 //Prepare Email Body Text
+\f0\i0 \cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 ""\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 Name: \cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $firstName
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 '\cf8 \strokec8  \cf7 \strokec7 '\cf5 \strokec5  
+\f1\i \cf10 \strokec10 .
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $lastName
+\f0\i0 \cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf12 \strokec12 \\n\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 Phone Number: \cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $phone
+\f0\i0 \cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf12 \strokec12 \\n\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 Email: \cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $email
+\f0\i0 \cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf12 \strokec12 \\n\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 Comments: \cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf9 \strokec9 $comment
+\f0\i0 \cf5 \strokec5 ;\cb1 \
+\cb3     
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5  
+\f1\i \cf10 \strokec10 .=
+\f0\i0 \cf5 \strokec5  \cf7 \strokec7 "\cf12 \strokec12 \\n\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3     \cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i \cf11 \cb3 \strokec11 //Send Email
+\f0\i0 \cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i \cf9 \cb3 \strokec9 $send_contact\cf10 \strokec10 =
+\f0\i0 \cf5 \strokec5  \cf6 \strokec6 mail\cf5 \strokec5 (
+\f1\i \cf9 \strokec9 $to
+\f0\i0 \cf5 \strokec5 ,
+\f1\i \cf9 \strokec9 $subject
+\f0\i0 \cf5 \strokec5 ,
+\f1\i \cf9 \strokec9 $Body
+\f0\i0 \cf5 \strokec5 );\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\i \cf10 \cb3 \strokec10 if
+\f0\i0 \cf5 \strokec5 (
+\f1\i \cf9 \strokec9 $send_contact
+\f0\i0 \cf5 \strokec5 ) \{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb3     \cf6 \strokec6 print\cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 <meta http-equiv=\cf12 \strokec12 \\"\cf8 \strokec8 refresh\cf12 \strokec12 \\"\cf8 \strokec8  content=\cf12 \strokec12 \\"\cf8 \strokec8 0;URL=Thanks.php\cf12 \strokec12 \\"\cf8 \strokec8 >\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3 \}\cb1 \
+\cb3  
+\f1\i \cf10 \strokec10 else
+\f0\i0 \cf5 \strokec5  \{\cb1 \
+\cb3      \cf6 \strokec6 print\cf5 \strokec5  \cf7 \strokec7 "\cf8 \strokec8 <meta http-equiv=\cf12 \strokec12 \\"\cf8 \strokec8 refresh\cf12 \strokec12 \\"\cf8 \strokec8  content=\cf12 \strokec12 \\"\cf8 \strokec8 0;URL=ContactError.html\cf12 \strokec12 \\"\cf8 \strokec8 >\cf7 \strokec7 "\cf5 \strokec5 ;\cb1 \
+\cb3 \}\cb1 \
+\cb3 ?>\cb1 \
+\
+\
+\cb3             \cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 \cb3 \strokec2 </\cf4 \strokec4 body\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\cf2 \cb3 \strokec2 </\cf4 \strokec4 html\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\
+\
+}

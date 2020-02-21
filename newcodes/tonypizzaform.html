@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tony's Pizzeria</title>
+    </head>
+    <body>
+        <form action="deliverPizza.php" method="post">
+            <label>First Name</label>
+            <input type="text" name="firstName"/>
+
+        
+        
+        
+        
+   
+            <label for="crust">Crust:</label>
+            <select id="crust" name="crust"></select>
+                <option value="handTossed">Hand-Tossed</option>
+                 <option value="deepDish">Deep Dish</option>
+                 <option value="thinCrust">Thin Crust</option>
+            </select>
+           
+           
+            <p>Please select your toppings:</p>
+    
+            <input type="checkbox" name="toppings" value="pepperoni" />
+            <label for="pepperoni" >Pepperoni </label><br/>
+            <input type="checkbox" name="toppings" value="sausage" />
+            <label for="sausage">Sausage</label><br/>
+            <input type="checkbox" name="toppings" value="pepperoni" />
+            <label for="SpicySausage" >Spicy Sausage </label><br/>
+            <input type="checkbox" name="toppings" value="sausage" />
+            <label for="greenpeppers">Green Peppers</label><br/>
+        
+        
+            <p>Would you like the driver to call upon leaving the store?</p>
+            <input type="radio" name="call" value="yes" id="yesCall"/>
+            <label for="yesCall">Yes</label>
+            <input type="radio" name="call" value="no" id="noCall" checked="chekced" />
+            <label for="noCall">No</label>
+    
+        </fieldset>
+        <br/>
+    
+        <fieldset>
+            <legend>Pizza Information</legend>
+        </fieldset>
+    
+    <fieldset>
+        <legend>Payment Information</legend>
+    </fieldset>
+    
+    
+    <input type="submit"value="Order Pizza" id="submit"/>     
+        
+        
+        </form>
+    </body>
+</html>

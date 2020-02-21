@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CME219 | Contact Us
+    </title>
+ </head>
+    <img src="Images/logoS16.png"/>
+    <ul>
+        <li><a href="courseInfo.html">Course</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="roster.html">Roster</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <img src="Images/schedule.png"/>
+    <h1>Contact Us</h1>
+    <h2>Questions? We have answers</h2>
+
+
+    <h3>Contact Us</h3>
+    <p>Questions? Just need more information? Contact us below and we'll answer all your questions!</p>
+</br>
+
+<form action="simpleForm.php" method="POST" >
+    <label for="firstName">First Name</label> 
+       <input type="text" name="firstName" id="firstName"   required="required"/><br/>
+       <label for="lastName">Last Name</label> 
+       <input type="text" name="lastName" id="lastName" /><br/>
+       <label for="email">Email:</label>
+       <input type="text" id="email" name="email" required/><br/>
+       <label for="phone">Phone</label>
+       <input type="text" name="phone" id="phone" /><br/>
+       <label for="comments" >Comments: </label>
+       <textarea name="comments"></textarea>
+       <input type="submit" value="Send Comments" />
+</form>
+
+</body>
+</html>

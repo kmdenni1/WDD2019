@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Frequently Asked Questions
+        </title>
+    </head>
+<body>
+    <ul>
+        <li><a href="courseInfo.html">Course</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="roster.html">Roster</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+<h1>Frequently Asked Questions</h1>
+<h2>Answers to your important Questions</h2>
+<h3>Frequently Asked Questions</h3>
+<p>Here are the answers to your most asked questions</p>
+    <h3>How do I connect to the server /Thomas?</h3>
+    <h3>How do I set up the server connection in Visual Studio Code?</h3>
+    <h3>How do I publish my webpage to the server /Thomas?</h3>
+    <h3>What link do I turn in for assignments?</h3>
+    <h3>When I view my page/image in a browser, it says <i>Forbidden</i>. How do I correct this?</h3>
+<h3>How do I connect to the server /Thomas?</h3>
+<ol>
+    <li>Using your Mac toolbar at the top of your screen, select <i>Go</i>.</li>
+    <li>Select <i>Connect to Server...</i></li>
+    <li>Enter the following into the server address field:<br> <i>smb://thomas.butler.edu</i></li>
+    <li>Select <i>Connect</i></li>
+    <li>If your computer asks for your username and password, please input that information.</li>
+    <li>Select your user name folder.</li>
+    <li>If you are able to access your folder, you have successfully gained access to your webspace on the server.</li>
+</ol>
+<br>
+<h3>How do I set up the server connection in Visual Studio Code?</h3>
+<ol>
+    <li>While in Visual Studio Code, select Shift+Command+P and type in the following: <i>SFTP:Config</i>. Hit Enter.</li>
+    <li>This will open up a JSON file. Change the following fields:</li>
+    <ul>
+        <li>"host" : <i>thomas.butler.edu</i></li>
+        <li>"username" : <i>your username</i></li>
+        <li>"password" : <i>your password</i></li>
+        <li>"remotePath" : <i>/home/username/public_html/CME219/class</i></li>
+    </ul>
+    <li>Hit Save.</li>
+    <br>
+</ol>
+<h3>How do I publish my webpage to the server /Thomas?</h3>
+<ol>
+    <li>Select the file that you want to upload</li>
+    <li>Right-click and choose <i>SFTP: Upload.</i></li>
+    <li>A message at the bottom should say <i>Upload Complete.</i></li>
+</ol>
+<br>
+<h3>What link do I turn in for assignments?</h3>
+<p>You will need to turn in the link to your page on the server. NOT your BUFiles location. For instance, if you publish a page called <i>code.html</i> to your class folder, on the server (Thomas), your URL will look like this: <br> http://blue.butler.edu/~username/class/code.html</p>
+<br>
+<h3>When I view my page/image in a browser it says <i>Forbidden</i>. How do I correct this?</h3>
+<ol>
+    <li>While in Visual Studio Code, click on the terminal tab at the bottom of your application.</li>
+    <li>Enter the following text at the prompt: <i>ssh thomas.butler.edu</i>. If you are using your own laptop, type the following text: <i>ssh username@thomas.butler.edu.</i></li>
+    <li>You will then be asked for your password. Even though it appears as if you are not typing your password, you are; the application is password-protecting your password for security reasons.</li>
+    <li>You should get the following prompt: <i>thomas%</i></li>
+    <li>Enter the following text: <i>fix_account</i></li>
+    <li>Refresh your browser</li>
+</ol>
+<br>
+<ul>
+    <li><a href="http://www.butler.edu" target="_blank">Butler University</a></li>
+    <li><a href="mailto:crector@butler.edu">Suggestions</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+</ul>
+</body>
+</html>
